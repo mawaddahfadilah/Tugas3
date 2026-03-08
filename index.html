@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mawaddah Fadilah - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ── NAVBAR ─────────────────────── -->
+    <nav class="navbar">
+      <button id="dark-toggle" class="dark-btn">🌙 Dark Mode</button>
+      <div class="navbar__logo">
+        <span class="logo-icon">&#9670;</span>
+        <span class="logo-text">Mawaddah</span>
+      </div>
+      <ul class="navbar__links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="navbar__cta">
+        <a href="#contact" class="btn-primary">Hire Me</a>
+      </div>
+    </nav>
+
+    <!-- ── HERO SECTION ────────────────── -->
+    <section class="hero" id="home">
+      <canvas id="particles"></canvas>
+
+      <div class="hero__content">
+        <span class="hero__badge">Available for Work</span>
+        <h1 class="hero__title">
+          Hi, saya
+          <span class="highlight">mawaddah fadilah</span>
+          <br />
+          Web Developer
+        </h1>
+        <p class="hero__desc">
+          Mahasiswa Sistem Informasi dengan pengalaman proyek di bidang pengembangan website,
+          database, dan sistem informasi. Berkomitmen menghadirkan solusi teknologi yang modern dan
+          efektif.
+        </p>
+        <div class="hero__actions">
+          <a href="#portfolio" class="btn-primary">Lihat Portfolio</a>
+          <a href="#contact" class="btn-outline">Hubungi Saya</a>
+        </div>
+      </div>
+
+      <!-- FOTO PROFIL -->
+      <div class="hero__image">
+        <div class="profile-box">
+          <div class="profile-ring">
+            <img src="mawaddaahhhh.jpg" alt="" class="profile-photo" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── SKILLS SECTION ──────────────── -->
+    <section class="skills" id="about">
+      <div class="container">
+        <h2 class="section-title">Keahlian Saya</h2>
+        <p class="section-subtitle">Teknologi yang saya kuasai</p>
+
+        <div class="skills__grid">
+          <div class="skill-card">
+            <div class="skill-card__icon">&#128195;</div>
+            <h3 class="counter" data-target="90">0</h3>
+            <p>HTML5</p>
+            <span>Semantic markup, aksesibilitas, dan struktur dokumen yang baik.</span>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-card__icon">&#127912;</div>
+            <h3 class="counter" data-target="85">0</h3>
+            <p>CSS3</p>
+            <span>Flexbox, Grid, animasi, dan responsive design untuk semua layar.</span>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-card__icon">&#9889;</div>
+            <h3 class="counter" data-target="80">0</h3>
+            <p>JavaScript</p>
+            <span>DOM manipulation, Fetch API, dan logika interaktif modern.</span>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-card__icon">&#128279;</div>
+            <h3 class="counter" data-target="75">0</h3>
+            <p>Git & GitHub</p>
+            <span>Version control, branching, dan kolaborasi tim secara profesional.</span>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-card__icon">&#9881;</div>
+            <h3 class="counter" data-target="70">0</h3>
+            <p>React</p>
+            <span>Component-based development dengan hooks dan state management.</span>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-card__icon">&#128640;</div>
+            <h3 class="counter" data-target="78">0</h3>
+            <p>Performance</p>
+            <span>Optimasi loading, image compression, dan Core Web Vitals.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── PORTFOLIO SECTION ───────────────────── -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <h2 class="section-title">My Portfolio</h2>
+        <p class="section-subtitle">Beberapa project yang pernah saya kerjakan</p>
+
+        <div class="portfolio__grid">
+          <div class="portfolio-card">
+            <div class="portfolio-card__image">
+              <img src="gokil.jpg" alt="Project 1" />
+            </div>
+            <div class="portfolio-card__content">
+              <h3>Pengeluaran Bulanan</h3>
+              <p>Aplikasi tracking pengeluaran bulanan berbasis Python.</p>
+              <div class="portfolio-card__tags">
+                <span>Python</span>
+              </div>
+              <a href="#" class="btn-outline">View Project</a>
+            </div>
+          </div>
+
+          <div class="portfolio-card">
+            <div class="portfolio-card__image">
+              <img src="ayyyyy.jpg" alt="Project 2" />
+            </div>
+            <div class="portfolio-card__content">
+              <h3>Aplikasi Login & Registrasi Java + MySQL</h3>
+              <p>Aplikasi login dan registrasi berbasis Java dengan database MySQL.</p>
+              <div class="portfolio-card__tags">
+                <span>Java</span>
+                <span>MySQL</span>
+              </div>
+              <a href="#" class="btn-outline">View Project</a>
+            </div>
+          </div>
+
+          <div class="portfolio-card">
+            <div class="portfolio-card__image">
+              <img src="keren.jpg" alt="Project 3" />
+            </div>
+            <div class="portfolio-card__content">
+              <h3>Riwayat Peminjaman Buku</h3>
+              <p>Sistem pencatatan peminjaman buku menggunakan Python.</p>
+              <div class="portfolio-card__tags">
+                <span>Python</span>
+              </div>
+              <a href="#" class="btn-outline">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CONTACT SECTION ───────────────────── -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">
+          Tertarik bekerja sama? Kirim pesan dan saya akan segera membalas.
+        </p>
+
+        <div class="contact__wrapper">
+          <div class="contact__info">
+            <h3>Contact Information</h3>
+
+            <div class="contact__item">
+              <span class="contact__icon">📍</span>
+              <div>
+                <p class="contact__label">Location</p>
+                <p>Medan, Sumatra Utara</p>
+              </div>
+            </div>
+
+            <div class="contact__item">
+              <span class="contact__icon">✉️</span>
+              <div>
+                <p class="contact__label">Email</p>
+                <p>mawaddahfdilah@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="contact__item">
+              <span class="contact__icon">📱</span>
+              <div>
+                <p class="contact__label">Phone</p>
+                <p>083831554802</p>
+              </div>
+            </div>
+
+            <div class="contact__item">
+              <span class="contact__icon">💬</span>
+              <div>
+                <p class="contact__label">WhatsApp</p>
+                <a href="https://wa.me/6283831554802" target="_blank" rel="noopener noreferrer">
+                  Chat Sekarang
+                </a>
+              </div>
+            </div>
+
+            <div class="contact__socials">
+              <a
+                href="https://www.facebook.com/mawaddah.fadilah.9"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Facebook
+              </a>
+              <a
+                href="https://www.instagram.com/mawaddahfdlh"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Instagram
+              </a>
+              <a href="https://wa.me/6283831554802" target="_blank" rel="noopener noreferrer">
+                WhatsApp
+              </a>
+              <a
+                href="https://www.tiktok.com/@mwddhfadilah?_r=1&_t=ZS-94JtTFeLCPI"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                TikTok
+              </a>
+              <a
+                href="https://linkedin.com/in/mawaddahfdilah"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                LinkedIn
+              </a>
+              <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+          </div>
+
+          <div class="contact__form">
+            <form>
+              <div class="form-group">
+                <input type="text" placeholder="Your Name" required />
+              </div>
+              <div class="form-group">
+                <input type="email" placeholder="Your Email" required />
+              </div>
+              <div class="form-group">
+                <textarea rows="5" placeholder="Your Message" required></textarea>
+              </div>
+              <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="form-section">
+      <h2>Hubungi Kami</h2>
+      <div class="form-container">
+        <input type="text" id="input-nama" placeholder="Nama lengkap" />
+        <input type="email" id="input-email" placeholder="Alamat email" />
+        <textarea id="input-pesan" placeholder="Pesan kamu..." rows="4"></textarea>
+        <button id="btn-kirim">Kirim Pesan</button>
+        <div id="form-feedback" class="feedback hidden"></div>
+      </div>
+    </section>
+
+    <!-- ── FOOTER ──────────────────────── -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <span class="footer__brand">&#9670; Mawaddah</span>
+          <p class="footer__copy">&copy; 2025 Mawaddah Fadilah. Dibuat dengan HTML & CSS murni.</p>
+          <div class="footer__links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
